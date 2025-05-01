@@ -1,0 +1,95 @@
+/* * {
+	border: 1px dashed red;
+} */
+
+body{
+    background-color:black;
+}
+
+
+.postContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+
+
+    margin:10vh auto;
+    background-color: white;
+    height:700px;
+    width:550px;
+}
+.postHeader{
+    height:10%;
+    display:flex;
+    justify-content: space-between;
+}
+#htmlIcon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:10%;
+}
+#menuIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:10%;
+}
+i{
+    font-size: 200%;
+}
+#nameBlock p{
+    margin:3px;
+}
+#nameBlock{
+    padding-top: 10px;
+    float:left;
+    width:80%;
+}
+
+
+.postImg{
+    height:60%;
+
+}
+.postImg img{
+    width: 100%;
+    height:100%;
+}
+.postBody{
+    display: flex;
+    flex-flow: row wrap;
+    height:30%;
+}
+.iconsContainer{
+    display:flex;
+    justify-content: space-between;
+    height: 25%;
+    width:100%;
+}
+#tripleIcons{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 10px;
+    column-gap: 10px;
+}
+#bookmark{
+    margin: 10px;
+}
+.likesContainer{
+    height: 15%;
+    width:100%;
+}
+.descriptionContainer{
+    height: 60%;
+    width:100%;
+}
+.likesContainer p{
+    margin-top:3px;
+    margin-left: 10px;
+}
+.descriptionContainer p{
+    margin-top:3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
